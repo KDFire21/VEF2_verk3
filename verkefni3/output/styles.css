@@ -1,0 +1,40 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(red), to(#2e2d2d));
+  background: linear-gradient(red, #2e2d2d);
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  color: #0060b9;
+}
+
+.dalkar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.card {
+  margin: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .dalkar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .dalkar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

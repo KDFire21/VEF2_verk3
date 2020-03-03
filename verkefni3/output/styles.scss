@@ -1,0 +1,38 @@
+@mixin adal {
+    background: linear-gradient(red,rgb(46, 45, 45));
+    width: 80%;
+    margin: 0 auto;
+}
+
+body{
+    @include adal;
+}
+
+header {
+    color: rgb(0, 96, 185);
+   
+}
+
+.dalkar{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card{
+    margin: 1em;
+}
+
+@media screen and (min-width: 800px){
+    .dalkar{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .dalkar{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
